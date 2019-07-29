@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Samsaro Exports
+        </title>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+        <style>
+            
+            body {
+                font-family: 'Open Sans', sans-serif;
+            }
+
+            #navbar {
+                width: 100%;
+                text-align: center;
+            }
+
+            ul > li {
+                margin-right: 20px;
+                list-style-type: none;
+                display: inline;
+            }
+
+            #logo {
+                text-align: center;
+            }
+
+            #main_img {
+                height: 200px;
+                background-color: aqua;
+                box-shadow: 5px 3px 20px black;
+            }
+
+            .heading {
+                margin-top: 5px;
+                font-size: 1.5em;
+                color: rgb(10, 78, 141);
+            }
+
+            .gallery{
+                display: grid;
+                grid-template-rows: repeat(1,300px);
+                grid-template-columns: repeat(2,1fr);
+                grid-gap: 20px;
+            }
+
+            .gallery > div {
+                background: gold;
+            }
+
+            .gallery > div  {
+                text-align: center;
+                padding-top: 30px;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            a:hover {
+                color: rgb(23, 72, 117);
+                font-size: 1.2em;
+                transition: .2s;
+            }
+
+            .active {
+                color: blue;
+            }
+
+            #desc {
+                font-size: .9em;
+            }
+
+            #floatbtn {
+                float: right;
+                height: 40px;
+                width: 40px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div id="logo">
+            <img src="logo.jpg" height="60" width="300">
+        </div>
+
+        <center>
+        <div id="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li class="active"><a href="#">Infrastructure</a></li>
+                <li><a href="#">Quality</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        </center>
+
+        <div id="main_img"></div>
+
+        <h1 class="heading">INFRASTRUCTURE</h1>
+        <p id="desc">Samsaro Exports has an excellent garment production unit which is well designed with ample workspace, adequate natural lighting and extensive ventilations. Samsaro Exports in-house garment production facility is well equipped with latest state of the art machinery in fabric cutting, fusing, sewing, finishing & packing, resulting in better quality & higher efficiency in productivity. Every style is time & method engineered to improve productivity & achieve delivery deadlines.</p>
+
+        <h1 class="heading">KNITTING</h1>
+        <p id="desc">The Samsaro Exports has Own Knitting machines, which is Mayor & Cie, Germany. It can produce around 2000 KGS of fabric per day. We can do all types of knitted fabrics as per our customer specification and style, which includes Single Jersey, Interlock, French Terry and all types of Ribs, Jackquard designs,Loop Knit, Fleece, Blended, Auto stripes.</p>
+        <div class="gallery">
+            <div><img src="knit1.png" height="250px"></div>
+            <div><img src="knit2.png" height="250px"></div>
+        </div>
+
+        <h1 class="heading">EMBROIDERY</h1>
+        <p id="desc">The highly advanced Tajima machine with 20 heads makes it easy for us to craft the finest embroidery designs.<br>
+        The embroidery division is equipped with the latest machines from TAJIMA-(Japan Make). These automated embroidery machines elegantly handle any design with Punching ,Designing & Applique Cutting.</p>
+        <div class="gallery">
+            <div><img src="emb1.png" height="250px"></div>
+            <div><img src="emb2.jpg" height="250px"></div>
+        </div>
+
+        <h1 class="heading">GARMENTING</h1>
+        <p id="desc">The garments are manufactured in most sophisticated machines using the latest state of the art technology in our INHOUSED PRODUCTION UNIT. Our wide range of machineries include JUKI, BROTHER, PEGASUS. Our Production is the key for success which keeps us growing in this competitive industry. Our production unit is supported by 100 sewing machines.</p>
+        <div class="gallery">
+            <div>1</div>
+            <div>2</div>
+        </div>
+        
+        <h1 class="heading">PACKING</h1>
+        <p id="desc">They are packed neatly in the designated packs and placed inside the carton or hanger racks for dispatch.</p>
+
+        <div id="floatbtn">
+            <a href="#navbar"><img src="floatbtn.jpg" height="40" width="40"></a>
+        </div>
+    </body>
+</html>
